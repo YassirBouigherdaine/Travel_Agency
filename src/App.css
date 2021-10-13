@@ -1,0 +1,80 @@
+
+
+.myInput{
+   
+    width:40%;
+}
+
+.myText {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size:15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navTab_mg {
+    margin-top: 40px;
+    margin-bottom: 20px;
+   float:none;
+   padding-left:38%;
+    text-align: center;
+}
+
+
+.myCarouselImg{
+    height:500px;
+}
+
+.myCard {
+    margin-top: 50px;
+    width: 18rem;
+    height: 28rem;
+    background-color: Highlight;
+}
+
+.myCardActive {
+   
+    width: 20rem;
+    height:30rem;
+}
+
+.myCardimg{
+   height:200px;
+   width:100%;
+}
+
+
+
+.offersImg{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    
+}
+
+
+.myList{
+    list-style:none;
+    
+}
+
+
+.aboutTxt{
+    margin-left:33%;
+}
+
+
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 550px;
+    color:white;
+}
+
+.each-slide span {
+    margin-top: 150px;
+    font-size: 25px;
+    text
