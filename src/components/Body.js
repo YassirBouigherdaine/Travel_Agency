@@ -55,7 +55,7 @@ function Body() {
                 <p> text to build on the card title and make up the bulk.</p>
                 <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
-            <div className="container px-5">
+            <div id="cards"  className="container px-5">
                 <div className="row">
                     <div className="col">
                         <div id="card1" className={`${isActive1 ? 'card myCardActive myText text-white bg-primary' : 'card myCard myText text-white'}`}>
@@ -111,7 +111,7 @@ function Body() {
 
                 </div>
                 <div className="row justify-content-start py-2 px-3">
-                    <div className="col-4">
+                    <div id="frstImg" className="col-4">
                         <img src='/pics/pic8.png' className="card-img-top mt-5 h-75" alt="..." />
                     </div>
                     <div className="col-8 text-center myText text-white bg-dark px-5  mt-5">
@@ -162,11 +162,11 @@ function Body() {
 
 
 
-            <div id="contact" className="container bg-dark text-white w-75 px-5">
+            <div className="container bg-dark text-white w-100 px-5">
                 <div className="container p-5 m-5 ">
-                    <h2 className="display-5 text-center p-2 text-warning">Contact Us</h2>
+                    <h2 id="contTitle" className="display-5 text-center p-2 text-warning">Contact Us</h2>
                     <div className="row">
-                        <div className="col py-4  mt-5">
+                        <div id="ContInfo" className="col py-4  mt-5">
                             <h5>Contact us</h5>
                             <br />
                             <ul className="myList">
@@ -178,7 +178,7 @@ function Body() {
                             </ul>
                         </div>
                         <div className="col py-5 m-4">
-                            <form>
+                            <form id="myContForm">
                                 <div className="mb-3">
                                     <label for="exampleInputEmail1" className="form-label">Name</label>
                                     <input type="name" className="form-control" id="name" />
@@ -213,7 +213,7 @@ function Body() {
                     <div className="row align-items-center px-5 m-1">
 
                         <div className="col">
-                            <img src='/pics/pic6.jpg' className="card-img-top  myCardimg" alt="..." />
+                            <img src='/pics/pic6.jpg' className="card-img-top  myAboutImg" alt="..." />
                         </div>
                         <div className="col">
                             <div className="card-body">
@@ -223,7 +223,7 @@ function Body() {
                             
                         </div>
                         <div className="col">
-                            <img src='/pics/pic7.jpg' className="card-img-top  myCardimg" alt="..." />
+                            <img src='/pics/pic7.jpg' className="card-img-top  myAboutImg" alt="..." />
                         </div>
                     </div>
                     <div className="row align-items-center m-1 px-5">
@@ -235,7 +235,7 @@ function Body() {
                             </div>
                         </div>
                         <div className="col">
-                            <img src='/pics/pic3.jpg' className="card-img-top  myCardimg" alt="..." />
+                            <img src='/pics/pic3.jpg' className="card-img-top  myAboutImg" alt="..." />
                         </div>
                         <div className="col">
                             <div className="card-body">
@@ -245,7 +245,7 @@ function Body() {
                         </div>
                     </div>
                 </div>
-                <div className=" py-4">
+                <div id="mySection" className=" py-4">
                     <h3 className="display-6">Travel the world</h3>
                     
                     <p className="card-text">Le Lorem Ipsum est simplement du faux texte employé dans la composition et impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices.</p>

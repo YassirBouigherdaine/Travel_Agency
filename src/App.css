@@ -77,4 +77,141 @@
 .each-slide span {
     margin-top: 150px;
     font-size: 25px;
-    text
+    text-align: center;
+}
+
+
+
+
+
+
+
+@media(max-width: 768px) {
+
+
+    #home{
+        height:90px;
+    }
+
+    .container-fluid {
+        margin-bottom: 60px;
+        margin-left:10px;
+       
+    }
+
+    #myBrand{
+        font-size:22px;
+    }
+
+
+    .nav-item {
+        margin-bottom: 60px;
+        padding-right: 5px;
+    }
+
+
+    #myHeaderForm {
+        width: 90%;
+        padding-top: 20px;
+    }
+
+    .each-slide{
+        height:480px;
+    }
+
+
+    #tours {
+        font-size: 14px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+   
+
+  
+
+
+    #frstImg {
+        width: 100%;
+        margin-bottom: -40px;
+    }
+
+    .myText {
+        width: 100%;
+    }
+
+
+   
+    #contTitle {
+        margin-left: -80px;
+        margin-bottom:-10px;
+    }
+
+    #ContInfo {
+        padding-left: 60px;
+        margin-right: 180px;
+        margin-bottom: -30px;
+    }
+
+
+    #myContForm {
+        width: 130%;
+        margin-left: -60px;
+    }
+
+    .myList {
+        margin-left: -30px;
+    }
+
+
+    #about {
+        margin-left: -70px;
+        padding-right: 70px;
+        width: 115%;
+        font-size: 14px;
+    }
+
+        #about h2 {
+            margin-left: -100px;
+        }
+        #about p, #about h5 {
+            padding: 5px;
+            width: 170%;
+            margin-left: -120px;
+        }
+
+                                                                                                                                                                                                                                    
+
+
+    #mySection p{
+       width:80%;
+      margin-left:0px;
+    }
+
+    #mySection h3{
+       margin-right:80px;
+        
+    }
+
+    .myAboutImg {
+        width: 300px;
+        height: 200px;
+        margin: 10px;
+        margin-left: -70px;
+        padding: 5px;
+    }
+    #card1, #card2, #card3 {
+        width: 300px;
+        height: 450px;
+       margin-left:50px;
+    }
+
+    #myFooter {
+        font-size: 14px;
+    }
+
+    #ContFooter {
+        padding-bottom: 24px;
+    }
+
+}

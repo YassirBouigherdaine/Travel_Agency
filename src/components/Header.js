@@ -21,12 +21,12 @@ function Header() {
         <div>
             <nav id="home" className="navbar navbar-expand navbar-dark bg-primary">
                 <div className="container-fluid">
-                    <a className="navbar-brand " href="#home"><span className="text-warning fs-4"><b>Holi</b></span>day</a>
+                    <a id="myBrand" className="navbar-brand " href="#home"><span className="text-warning fs-4"><b>Holi</b></span>day</a>
                 <button className="navbar-toggler" type="button">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                     <div className="collapse navbar-collapse ">
-                        <form className="d-flex position-absolute top-50 start-50 translate-middle myInput">
+                        <form id="myHeaderForm" className="d-flex position-absolute top-50 start-50 translate-middle myInput">
                             <input className="form-control me-2 " type="search" placeholder="Search" aria-label="Search" />
                             <button className="btn btn-warning" type="submit"><i class="bi bi-search"></i></button>
                         </form>
@@ -93,4 +93,5 @@ function Header() {
    
 }
 
-export defa
+export default Header;
+
